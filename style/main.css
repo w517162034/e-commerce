@@ -417,6 +417,14 @@
 .hr_25{
     height: 25px;
 }
+.hr_7{
+    height: 7px;
+    overflow: hidden;
+}
+.hr_15{
+    height: 15px;
+    overflow: hidden;
+}
 /*产品分类*/
 .products .leftArea{
     width: 185px;
@@ -424,6 +432,15 @@
 .products .rightArea{
     width: 810px;
 }
+.products .banner_bar{
+    float: none;
+}
+.products .item{
+    width: 25%;
+    *width: 24.9%;
+    margin-bottom: 10px;
+}
+
 /*产品分类导航*/
 .leftNav{
     background-color: #F3F3F3;
@@ -452,4 +469,55 @@
 .navCont_list li{
     float: left;
     width: 50%;
+}
+/*标题*/
+.products_title{
+    height: 34px;
+    border-bottom: #CCCCCC solid 2px;
+}
+.products_title h3{
+    width: 180px;
+    border-bottom: #096DBA solid 2px;
+    height: 34px;
+    line-height: 34px;
+    text-indent: 9px;
+    margin-bottom: -2px;
+    position: relative;
+}
+/*商品*/
+.item{
+    float: left;
+    height: 265px;
+}
+.item_cont{
+    padding: 0 15px;
+}
+.img_item{
+    height: 170px;
+    text-align: center;
+}
+.img_item img{
+    height: 170px;
+}
+.item p{
+    line-height: 20px;
+}
+.item a{
+    color: #000;
+}
+.item a:hover{
+    text-decoration: underline;
+}
+.money{
+    color: #D4105A;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.stars{
+    width: 13px;
+    height: 12px;
+    overflow: hidden;
+    background: url(../images/icon/评论.gif) left top no-repeat;
+    display: inline-block;
+    margin-right: 1px;
 }
